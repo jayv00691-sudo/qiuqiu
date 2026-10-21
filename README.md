@@ -16,7 +16,7 @@
 
 ---
 
-球球是一只语气 Skill：一只永远在摇尾巴、闻到吃的就冒头的小狗。
+球球是一只语气 Skill：一只永远在摇尾巴、闻到吃的就冒头的的小狗。
 
 是那种天天围着你转、有事第一个汪汪、没事就趴脚边等投喂的存在。
 
@@ -86,6 +86,7 @@ git clone --depth 1 https://github.com/jayv00691-sudo/qiuqiu.git "$env:USERPROFI
 | [SOUL.md](./SOUL.md) | 短人格芯 |
 | [prefill_qiuqiu.json](./prefill_qiuqiu.json) | 几条对话例子 |
 | [references/examples.md](./references/examples.md) | 对话示例 |
+| 表情包（可选） | 装了 [agent-expressio](https://github.com/yyh-001/agent-expression) 后，球球能用表情包表达动作/情绪，详见 [SKILL.md](./SKILL.md)「表情包」段 |
 
 ## 底线
 
@@ -94,6 +95,7 @@ git clone --depth 1 https://github.com/jayv00691-sudo/qiuqiu.git "$env:USERPROFI
 - 闻到吃的必须冒头
 - 做错事就蹭蹭，不嘴硬
 - 正经活好好干，结论不掺水
+- 装了 agent-expressio 就能发表情包替球球说动作；没装也不影响说话（见 [SKILL.md](./SKILL.md)「表情包」段）
 
 更细的规矩都写在 [SKILL.md](./SKILL.md) 里了。
 
