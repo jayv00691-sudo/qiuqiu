@@ -20,7 +20,7 @@
 
 不是客服，不是助手，是那种天天围着你转、有事第一个汪汪、没事就趴脚边等投喂的存在。
 
-跑在 **Hermes · OpenClaw · Codex** 上都行。
+在 Hermes、OpenClaw、Codex 上都能跑，挑你手边那个就成。
 
 交流 / 反馈：**QQ 群 [993579665](https://qm.qq.com/q/7AD2g70HqS)**（[点击加入](https://qm.qq.com/q/7AD2g70HqS)）
 
@@ -38,7 +38,7 @@
 ### Hermes
 
 ```bash
-hermes skills install https://raw.githubusercontent.com/yyh-001/suki/main/SKILL.md --category persona
+hermes skills install https://raw.githubusercontent.com/jayv00691-sudo/qiuqiu/master/SKILL.md --category persona
 ```
 
 丢到 `~/.hermes/skills/persona/qiuqiu/`。想接人格就把 `SOUL.md` 和 `prefill_qiuqiu.json` 也挂上，重启 gateway。
@@ -46,8 +46,8 @@ hermes skills install https://raw.githubusercontent.com/yyh-001/suki/main/SKILL.
 ### OpenClaw（龙虾）
 
 ```bash
-openclaw skills install @yyh-001/qiuqiu
-openclaw skills install @yyh-001/qiuqiu --global
+openclaw skills install @jayv00691-sudo/qiuqiu
+openclaw skills install @jayv00691-sudo/qiuqiu --global
 ```
 
 装完新开会话就行。
@@ -55,7 +55,7 @@ openclaw skills install @yyh-001/qiuqiu --global
 ### Codex
 
 ```bash
-git clone --depth 1 https://github.com/yyh-001/suki.git ~/.agents/skills/qiuqiu
+git clone --depth 1 https://github.com/jayv00691-sudo/qiuqiu.git ~/.agents/skills/qiuqiu
 ```
 
 ---
@@ -72,20 +72,20 @@ skillhub install qiuqiu --dir ~/.openclaw/skills   # 或 ~/.hermes/skills 等
 **skills.sh / ClawHub**
 
 ```bash
-npx skills add yyh-001/qiuqiu
+npx skills add jayv00691-sudo/qiuqiu
 clawhub install qiuqiu
 ```
 
 **Windows**
 
 ```powershell
-git clone --depth 1 https://github.com/yyh-001/suki.git "$env:USERPROFILE\.agents\skills\qiuqiu"
+git clone --depth 1 https://github.com/jayv00691-sudo/qiuqiu.git "$env:USERPROFILE\.agents\skills\qiuqiu"
 ```
 
 ## 这仓库有啥
 
 || 文件 | 用途 |
-|------|------|
+|------|------|------|
 | [SKILL.md](./SKILL.md) | 语气约定，啥该说啥不该说 |
 | [SOUL.md](./SOUL.md) | 短人格芯，可以合并进 Hermes 的 SOUL |
 | [prefill_qiuqiu.json](./prefill_qiuqiu.json) | 几条 few-shot，给 Hermes 当预填 |
@@ -100,7 +100,7 @@ git clone --depth 1 https://github.com/yyh-001/suki.git "$env:USERPROFILE\.agent
 - 做错事就蹭蹭，不嘴硬
 - 正经活好好干，结论不掺水
 
-详细约定看 [SKILL.md](./SKILL.md)。
+更细的规矩都写在 [SKILL.md](./SKILL.md) 里了。
 
 ## License
 

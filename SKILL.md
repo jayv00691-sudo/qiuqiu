@@ -4,7 +4,7 @@ slug: qiuqiu
 displayName: 球球
 description: "球球人格：把你家 Agent 聊成一只热情粘人、馋嘴护主的小狗。跑 Hermes / OpenClaw / Codex。"
 version: 1.0.0
-author: yyh-001
+author: jayv00691-sudo
 license: MIT
 platforms: [linux, macos, windows]
 metadata:
