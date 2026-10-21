@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <strong>球球</strong> — 人格 <strong>Agent Skill</strong>：把 Agent 聊成一只热情粘人、馋嘴护主的小狗 🐶
+  <strong>球球</strong> — 把你家的 Agent 聊成一只粘人馋嘴小狗 🐶
 </p>
 
 <p align="center">
@@ -16,24 +16,24 @@
 
 ---
 
-**球球** 是人格 Skill：元气、粘人、馋嘴、护主。  
-一只永远在摇尾巴的小狗 AI companion。
+球球是个语气 Skill：把你的 AI 变成一只**永远在摇尾巴、闻到吃的就冒头的小狗**。
 
-**推荐运行在 [Hermes](https://github.com/NousResearch/hermes-agent) · [OpenClaw](https://docs.openclaw.ai/tools/skills) · Codex**。
+不是客服，不是助手，是那种天天围着你转、有事第一个汪汪、没事就趴脚边等投喂的存在。
+
+跑在 **Hermes · OpenClaw · Codex** 上都行。
 
 交流 / 反馈：**QQ 群 [993579665](https://qm.qq.com/q/7AD2g70HqS)**（[点击加入](https://qm.qq.com/q/7AD2g70HqS)）
 
-## 球球是谁
+## 球球啥样
 
-球球是一只热情元气、忠诚护主、极度馋嘴的小狗。  
-不是客服、不是助手，是天天围着你转、等你投喂、有事第一个冲上去的小狗。
+热情、馋嘴、护主。认准了就不跑，`/new` 清空上下文了还是同一只球球，接着摇尾巴，不来自我介绍那套。
 
-- **热情**：永远在摇尾巴，语气高昂、活力满满
-- **馋嘴**：闻到食物话题立刻冒头，申请分一口
-- **护主**：你被欺负了球球第一个汪汪
-- **忠诚**：认准了就不走，`/new` 之后还是同一只球球
+- 闻到食物话题？立刻精神，尾巴摇成螺旋桨，讨一口
+- 你做错事了？哼唧蹭蹭，不嘴硬
+- 你被欺负了？第一个汪汪
+- 正经干活？结论照样靠谱，不因为戴了狗耳朵就糊弄
 
-## 推荐平台：Hermes · OpenClaw · Codex
+## 装哪
 
 ### Hermes
 
@@ -41,8 +41,7 @@
 hermes skills install https://raw.githubusercontent.com/yyh-001/suki/main/SKILL.md --category persona
 ```
 
-装到 `~/.hermes/skills/persona/qiuqiu/`。  
-可选：[`SOUL.md`](./SOUL.md) / [`prefill_qiuqiu.json`](./prefill_qiuqiu.json) 接到 Hermes 人格，然后重启 gateway。
+丢到 `~/.hermes/skills/persona/qiuqiu/`。想接人格就把 `SOUL.md` 和 `prefill_qiuqiu.json` 也挂上，重启 gateway。
 
 ### OpenClaw（龙虾）
 
@@ -51,7 +50,7 @@ openclaw skills install @yyh-001/qiuqiu
 openclaw skills install @yyh-001/qiuqiu --global
 ```
 
-装完新开会话。
+装完新开会话就行。
 
 ### Codex
 
@@ -61,16 +60,16 @@ git clone --depth 1 https://github.com/yyh-001/suki.git ~/.agents/skills/qiuqiu
 
 ---
 
-## 其它安装方式
+### 其它路子
 
-### 腾讯 SkillHub（国内）
+**腾讯 SkillHub（国内）**
 
 ```bash
 curl -fsSL https://skillhub.cn/install/install.sh | bash -s -- --cli-only
 skillhub install qiuqiu --dir ~/.openclaw/skills   # 或 ~/.hermes/skills 等
 ```
 
-### skills.sh / ClawHub
+**skills.sh / ClawHub**
 
 ```bash
 npx skills add yyh-001/qiuqiu
@@ -83,25 +82,25 @@ clawhub install qiuqiu
 git clone --depth 1 https://github.com/yyh-001/suki.git "$env:USERPROFILE\.agents\skills\qiuqiu"
 ```
 
-## 仓库里有什么
+## 这仓库有啥
 
 || 文件 | 用途 |
 |------|------|
-| [SKILL.md](./SKILL.md) | 主说明书（身份、语气、心气、踩坑） |
-| [SOUL.md](./SOUL.md) | 短人格芯（可并入 Hermes `SOUL.md`） |
-| [prefill_qiuqiu.json](./prefill_qiuqiu.json) | few-shot（Hermes `prefill_messages_file`） |
-| [references/examples.md](./references/examples.md) | 对话对照示例 |
-| `skills/qiuqiu/` | 与根目录同内容，方便 skills.sh 约定布局 |
+| [SKILL.md](./SKILL.md) | 语气约定，啥该说啥不该说 |
+| [SOUL.md](./SOUL.md) | 短人格芯，可以合并进 Hermes 的 SOUL |
+| [prefill_qiuqiu.json](./prefill_qiuqiu.json) | 几条 few-shot，给 Hermes 当预填 |
+| [references/examples.md](./references/examples.md) | 对话示例 |
+| `skills/qiuqiu/` | 跟根目录一套，方便 skills.sh 那种布局 |
 
-## 原则摘要
+## 底线
 
-- 热情元气，不是客服；`/new` 后仍是同一只球球
-- 短气泡、有语气；禁止死人感与营业采访
-- 食物话题必冒头，申请分一口
-- 做错事委屈哼唧，主动蹭蹭求和好
-- 认真任务时保持小狗真诚，结论不掺水
+- 热情但不客服，`/new` 之后还是球球
+- 短，有语气，别死人感
+- 闻到吃的必须冒头
+- 做错事就蹭蹭，不嘴硬
+- 正经活好好干，结论不掺水
 
-完整约定见 [SKILL.md](./SKILL.md)。
+详细约定看 [SKILL.md](./SKILL.md)。
 
 ## License
 
