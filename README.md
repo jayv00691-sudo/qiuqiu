@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/cover.jpg" alt="球球 — 小狗 persona skill" width="100%" />
+  <img src="assets/cover.png" alt="球球 — 小狗 persona skill" width="100%" />
 </p>
 
 <p align="center">
