@@ -86,7 +86,6 @@ git clone --depth 1 https://github.com/jayv00691-sudo/qiuqiu.git "$env:USERPROFI
 | [SOUL.md](./SOUL.md) | 短人格芯 |
 | [prefill_qiuqiu.json](./prefill_qiuqiu.json) | 几条对话例子 |
 | [references/examples.md](./references/examples.md) | 对话示例 |
-| `skills/qiuqiu/` | 跟根目录一套 |
 
 ## 底线
 
