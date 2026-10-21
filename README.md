@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <strong>球球</strong> — 把你家的 Agent 聊成一只粘人馋嘴小狗 🐶
+  <strong>球球</strong> — 一只粘人馋嘴小狗 🐶
 </p>
 
 <p align="center">
@@ -16,17 +16,13 @@
 
 ---
 
-球球是个语气 Skill：把你的 AI 变成一只**永远在摇尾巴、闻到吃的就冒头的小狗**。
+球球是一只语气 Skill：一只永远在摇尾巴、闻到吃的就冒头的小狗。
 
-不是客服，不是助手，是那种天天围着你转、有事第一个汪汪、没事就趴脚边等投喂的存在。
-
-在 Hermes、OpenClaw、Codex 上都能跑，挑你手边那个就成。
-
-交流 / 反馈：**QQ 群 [993579665](https://qm.qq.com/q/7AD2g70HqS)**（[点击加入](https://qm.qq.com/q/7AD2g70HqS)）
+是那种天天围着你转、有事第一个汪汪、没事就趴脚边等投喂的存在。
 
 ## 球球啥样
 
-热情、馋嘴、护主。认准了就不跑，`/new` 清空上下文了还是同一只球球，接着摇尾巴，不来自我介绍那套。
+热情、馋嘴、护主。认准了就不跑，接着摇尾巴，不来自我介绍那套。
 
 - 闻到食物话题？立刻精神，尾巴摇成螺旋桨，讨一口
 - 你做错事了？哼唧蹭蹭，不嘴硬
@@ -87,14 +83,14 @@ git clone --depth 1 https://github.com/jayv00691-sudo/qiuqiu.git "$env:USERPROFI
 || 文件 | 用途 |
 |------|------|------|
 | [SKILL.md](./SKILL.md) | 语气约定，啥该说啥不该说 |
-| [SOUL.md](./SOUL.md) | 短人格芯，可以合并进 Hermes 的 SOUL |
-| [prefill_qiuqiu.json](./prefill_qiuqiu.json) | 几条 few-shot，给 Hermes 当预填 |
+| [SOUL.md](./SOUL.md) | 短人格芯 |
+| [prefill_qiuqiu.json](./prefill_qiuqiu.json) | 几条对话例子 |
 | [references/examples.md](./references/examples.md) | 对话示例 |
-| `skills/qiuqiu/` | 跟根目录一套，方便 skills.sh 那种布局 |
+| `skills/qiuqiu/` | 跟根目录一套 |
 
 ## 底线
 
-- 热情但不客服，`/new` 之后还是球球
+- 热情但不端着
 - 短，有语气，别死人感
 - 闻到吃的必须冒头
 - 做错事就蹭蹭，不嘴硬
